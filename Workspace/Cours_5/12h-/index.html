@@ -1,0 +1,37 @@
+<!doctype html>
+ 
+<html lang='fr'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Titre de la page</title>
+        <link href='bootstrap.min.css' rel='stylesheet' type='text/css'>
+        <link href='style.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <p class="tooltip-wrapper" id="js-tooltip-wrapper">
+        <span class="tooltip" id="js-tooltip">En informatique, un langage de programmation est une notation conventionnelle destinée à formuler des algorithmes et produire des programmes informatiques qui les appliquent.</span>
+        JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs avec l'utilisation (par exemple) de Node.js.
+        </p>
+
+        <div class="alert alert-primary" style="display: none;" id="js-alert">
+            Hide me!
+            <button id="js-hide-alert">✕</button>
+        </div>
+        <button class="btn btn-primary" id="js-show-alert">Show alert</button>
+
+        <p id="js-slide-example-address">Quai de Chartrons 33000 Bordeaux</p>
+        <div id="js-slide-example-links" style="display: none;">
+            <a href="#">Voir sur la carte</a>
+            <a href="#">Directions</a>
+        </div>
+
+        <button class="btn btn-success" id="js-btn-fade-in">Fade In</button>
+        <button class="btn btn-danger" id="js-btn-fade-out">Fade Out</button>
+        <div style="display: none; background:#2E9AFE; width:200px; height:200px; margin-top:30px;" id="js-div-fade-in-out"></div>
+
+        <div id="js-animation-1"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src='script.js'></script>
+    </body>
+</html>
